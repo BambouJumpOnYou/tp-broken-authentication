@@ -84,6 +84,17 @@ cd thc-hydra
 sudo make install
 ```
 
+Pour ceux qui sont sous windows :
+
+vous pouvez utilisez hydra pour windows ici : https://discord.com/channels/755329550220656681/841282879220744252/850306553515868191
+
+Clonez le, executez le puis ouvrez un shell dans le dossier et vous pouvez y taper les commandes hydra.
+
+Apparement hydra n'arrive pas a joindre votre serveur quand vous lancez avec php -S => utilsez WAMP plutot, cela a marché pour Esteban
+Cupp mets des lignes vides entre chaque password => supprimez les sinon hydra ne trouvera pas le mot de passe
+
+-----------
+
 Tapez maintenant `hydra` pour le lancer, regardez les arguments nécessaires pour lancer une attaque bruteforce par dictionnaire sur un formulaire HTTP en POST.
 Regardez à quoi ressemble le site php mis à disposition, sur quelle page il amène lors d'une erreur, quelle est la requête qu'il fait pour essayer de se connecter.
 

